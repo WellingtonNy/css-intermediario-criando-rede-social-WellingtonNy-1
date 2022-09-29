@@ -1,0 +1,29 @@
+.title1{
+font-weight: 700;
+font-size: 28px;
+line-height: 40px;
+
+}
+
+
+.title2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.text1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.text2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+.text3{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}

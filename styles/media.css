@@ -1,0 +1,34 @@
+@media(max-width:610px) {
+    .divNav{
+    padding: 30px 50px;
+    }
+  .formulario{
+    width: 100%;
+  }
+  .formPost{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 20px 20px;
+  }
+  .section1{
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+}
+@media(max-width:1300px){
+  .asidePrincipal{
+    position: unset;
+    top: 100px;
+    right: 49px;
+   min-width: 315px;
+    max-width: 40%;
+    width: 30%;
+    margin-right: 20px;
+    gap :50px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+}

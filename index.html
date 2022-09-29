@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/sileo.css">
+  <link rel="stylesheet" href="/styles/globalStyles.css" />
+  <link rel="stylesheet" href="/styles/cor.css">
+  <link rel="stylesheet" href="/styles/texto.css">
+  <link rel="stylesheet" href="/styles/cont.css">
+  <link rel="stylesheet" href="/styles/componentes.css">
+  <link rel="stylesheet" href="/pages/home/style.css" />
+  <link rel="stylesheet" href="/styles/media.css">
+  <script defer src="/script/database/posts.js"></script>
+  <script defer src="/script/database/users.js"></script>
+  <script defer src="/script/database/sugestUsers.js"></script>
+  <script defer src="/pages/home/index.js"></script>
+  <title>TechPosters - Home</title>
+</head>
+
+<body id="body">
+<!-- ///////////////////MODAL////////////////////////////////// -->
+<!-- <div id="modal" class="modalA">
+
+  <div class="modalB">
+
+
+  </div>
+
+</div> -->
+
+
+
+
+  <!-- ////////////////////////////////////////////////////// -->
+  <header>
+    <nav class="nav">
+      <div class="divNav flex flexBetween">
+        <img src="/assets/img/logo.svg" alt="">
+        <span class="sair">Sair</span>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="section1 flex flexBetween ">
+      <div class="formPost flex flexColuna" >
+        <div class="miniCard flex">
+          <img class="imgMiniCard" src="/assets/img/user1.svg" alt="">
+          <div class="textoMiniCard flex flexColuna flexA">
+            <h4 class="title2">
+                 Samuel Leão
+            </h4>
+            <p class="text2">
+              Front end Engineer
+            </p>
+          </div>
+        </div>
+        <div class="formulario flex flexColuna">
+          <form>
+            <input class="inputf1 dBlock title2" type="text" placeholder="Digitar título do post">
+            <textarea class="textof1 dBlock text1" id="" cols="30" rows="8" placeholder="Digitar descrição do post"></textarea>
+            <div class="direcionarBut">
+            <button class="butPostar">Postar</button>
+            </div>
+          </form>
+         </div>
+      </div>
+      
+    </section>
+    <aside class="asidePrincipal">
+      <h2 class="title2">Sugestões para você seguir</h2>
+          <!-- //////////////////////////////////////////////////////////////////////////// -->
+            <div class="aside flex flexBetween">
+              <div class="miniCard flex">
+                <img class="imgMiniCard" src="/assets/img/user3.svg" alt="">
+                <div class="textoMiniCard flex flexColuna flexA">
+                  <h4 class="title2">
+                    Carlos Lima
+                  </h4>
+                  <p class="text2">
+                    UX e UI Designer
+                  </p>
+                </div>
+              </div>
+              <button class="seguindo">Seguindo</button>
+            </div>
+            <!-- ////////////////////////////////////////////////////// -->
+            <div class="aside flex flexBetween">
+              <div class="miniCard flex">
+                <img class="imgMiniCard" src="/assets/img/user6.svg" alt="">
+                <div class="textoMiniCard flex flexColuna flexA">
+                  <h4 class="title2">
+                    Filipe Gutierry
+                  </h4>
+                  <p class="text2">
+                    Front end Engineer
+                  </p>
+                </div>
+              </div>
+              <button class="seguindo">Seguindo</button>
+            </div>
+            <!-- ///////////////////////////////////////////////////////////// -->
+              <div class="aside flex flexBetween">
+              <div class="miniCard flex">
+                <img class="imgMiniCard" src="/assets/img/user2.svg" alt="">
+                <div class="textoMiniCard flex flexColuna flexA">
+                  <h4 class="title2">
+                    Samuel Persuhn
+                  </h4>
+                  <p class="text2">
+                    Front end Engineer
+                  </p>
+                </div>
+              </div>
+              <button class="seguindo">Seguindo</button>
+            </div>
+
+    </aside>
+    <section class="section2 formPost flex flexColuna">
+      <h1 class="title1">Posts</h1>
+      <div>
+        <div class="DOM">
+          <div class="miniCard flex">
+            <img class="imgMiniCard" src="/assets/img/user2.svg" alt="">
+            <div class="textoMiniCard flex flexColuna flexA">
+              <h4 class="title2">
+                Samuel Persuhn
+              </h4>
+              <p class="text2">
+                Front end Engineer
+              </p>
+            </div>
+          </div>
+          <h1 class="title1">Empresa de Tecnologia da Informação abre vagas para programa de estágio</h1>
+          <p class="pPost text1">A Framework Digital, empresa mineira especializada em Tecnologia da Informação, irá iniciar o seu sexto programa de estágio, com o prazo de inscrições entre os dias 08 e 28 de agosto. O programa é conhecido como Framework Padawans, com inspiração nos filmes Star Wars. Nas histórias, os iniciantes fazem treinamentos para se tornar cavaleiros Jedi, que compõem o lado bom da força.</p>
+          <div class="direcionarBut">
+          <button class="abrirPost">Abrir Post</button>
+          </div>
+        </div>
+        
+
+        <div class="DOM">
+          <div class="miniCard flex">
+            <img class="imgMiniCard" src="/assets/img/user3.svg" alt="">
+            <div class="textoMiniCard flex flexColuna flexA">
+              <h4 class="title2">
+                Carlos Lima
+              </h4>
+              <p class="text2">
+                UX e UI Designer
+              </p>
+            </div>
+          </div>
+          <h1 class="title1">Programa de estágio abre vagas em Segurança da Informação com regime remoto</h1>
+          <p class="pPost text1">Em Segurança da Informação, as vagas são destinadas às áreas de Security Operations Center (SOC), Administração de Dispositivos de Segurança (ADS), Resposta a Incidentes (RI), Segurança e Privacidade e Consultoria Técnica. O candidato interessado deverá estar matriculado em um curso superior em Ciência da Computação, Segurança da Informação, Tecnologia da Informação e afins, com previsão de conclusão do curso de fevereiro de 2023 a fevereiro de 2025.</p>
+          <div class="direcionarBut">
+          <button class="abrirPost">Abrir Post</button>
+          </div>
+        </div>
+
+
+        <div class="DOM">
+          <div class="miniCard flex">
+            <img class="imgMiniCard" src="/assets/img/user5.svg" alt="">
+            <div class="textoMiniCard flex flexColuna flexA">
+              <h4 class="title2">
+                Júlia Martins
+              </h4>
+              <p class="text2">
+                Devop's
+              </p>
+            </div>
+          </div>
+          <h1 class="title1">O que é programação orientada a objetos e programação funcional</h1>
+          <p class="pPost text1">A Programação Funcional é uma orientação focada na programação declarativa. Conhecendo mais a programação funcional a partir de códigos podemos nos deparar de primeira com o conceito mais central da programação funcional, que é o conceito de funções puras, isso significa que o retorno de uma função deve depender apenas dos seus parâmetros de entrada. Com classes podemos editar os valores das propriedades dos objetos criados ou ainda criar métodos para essas propriedades, ainda por cima podemos definir se vão ser públicos (vão para o objeto) ou estáticos (não são instanciados, ou seja, não vão para o objeto), e isso tem seu lado bom e ruim.</p>
+          <div class="direcionarBut">
+          <button class="abrirPost">Abrir Post</button>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

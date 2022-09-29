@@ -10,9 +10,9 @@ body{
     
 }
 
-/* .rel{
+.rel{
     position: relative;
-} */
+}
 .flex{
     display: flex;
 }

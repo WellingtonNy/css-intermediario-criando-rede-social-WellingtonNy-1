@@ -59,7 +59,7 @@ header{
 }
 
 .inputf1{
-    
+    font-family: var(--font);
    margin-bottom: 20px;
     width: 100%;
     height: 40px;
@@ -67,6 +67,7 @@ header{
 }
 
 .textof1{
+    font-family: var(--font);
     resize: none;
     box-sizing: border-box;
     margin-bottom: 20px;

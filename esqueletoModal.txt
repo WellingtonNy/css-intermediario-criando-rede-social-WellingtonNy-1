@@ -1,0 +1,20 @@
+<div id="modal" class="modalA">
+    <div class="modalB rel">
+      <div class="miniCard flex">
+        <img class="imgMiniCard" src="/assets/img/user1.svg" alt="">
+        <div class="textoMiniCard flex flexColuna flexA">
+          <h4 class="title2">
+               Samuel Leão
+          </h4>
+          <p class="text2">
+            Front end Engineer
+          </p>
+        </div>
+      </div>
+      <div class="divConteudo">
+      <h1 class="title1">Empresa de Tecnologia da Informação abre vagas para programa de estágio</h1>
+      <p class=" text1">A Framework Digital, empresa mineira especializada em Tecnologia da Informação, irá iniciar o seu sexto programa de estágio, com o prazo de inscrições entre os dias 08 e 28 de agosto. O programa é conhecido como Framework Padawans, com inspiração nos filmes Star Wars. Nas histórias, os iniciantes fazem treinamentos para se tornar cavaleiros Jedi, que compõem o lado bom da força.</p>
+     </div>
+     <button class="closeModal">X</button>
+    </div>
+  </div>

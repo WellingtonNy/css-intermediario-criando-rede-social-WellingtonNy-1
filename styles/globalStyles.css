@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family:"Inter", sans-serif;;
+    font-family:"Inter", sans-serif;
     
 }
 
@@ -38,4 +38,8 @@ align-items: center;
 
 .flexA{
     justify-content: space-around;
+}
+
+.hide{
+    display: none;
 }

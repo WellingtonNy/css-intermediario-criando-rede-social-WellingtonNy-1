@@ -6,8 +6,7 @@ header{
 }
 
 .nav{
-    /* width: 1440px;
-    max-width:100vw; */
+   
     background-color:var(--color-grey-1);
     
 }
@@ -115,10 +114,27 @@ header{
 }
 
 .modalA{
-    z-index: 9999;
+    z-index: 2;
     box-sizing: border-box;
     position: fixed;
     width: 100%;
     height: 100%;
     background-color: var(--color-grey-opcity-1);
+}
+
+.modalB{
+    
+margin: 0 auto;
+margin-top: 110px;
+padding: 20px;
+background-color: var(--color-white-fixed);
+max-width: 60%;
+display: flex;
+flex-direction: column;
+}
+
+.divConteudo{
+    display: flex;
+    flex-direction: column;
+    gap:30px
 }
